@@ -69,12 +69,15 @@ The code and methodology are shared here to ensure **reproducibility and transpa
    git clone https://github.com/YourName/GAN-Burn.git
    cd GAN-Burn
    
-   ```bash
+## Usage
+2.   ```bash
 python train.py --dataroot ./datasets/burn_dataset --name burn_gan --model pix2pix --netG swinunet
 
-   ```bash
+## Usage
+3.   ```bash
 python test.py --dataroot ./datasets/burn_dataset --name burn_gan --model pix2pix
 
+---
 License
 
 This repository is released under an Academic Research License.
