@@ -66,11 +66,13 @@ The code and methodology are shared here to ensure **reproducibility and transpa
 ## Usage
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YourName/Burn-Wound-Project.git
-   cd Burn-Wound-Project
-
+   git clone https://github.com/YourName/GAN-Burn.git
+   cd GAN-Burn
+   
+   ```bash
 python train.py --dataroot ./datasets/burn_dataset --name burn_gan --model pix2pix --netG swinunet
 
+   ```bash
 python test.py --dataroot ./datasets/burn_dataset --name burn_gan --model pix2pix
 
 License
